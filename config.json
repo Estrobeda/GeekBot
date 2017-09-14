@@ -1,0 +1,38 @@
+{
+    "Bot": {
+        "Name": "GeekBot",
+        "Token": "",
+        "Website": "thegeekcorner.org"
+    },
+
+    "Behaviours": {
+        "Greeting":{
+            "Channel": "ID/DM",
+            "Msg": ["Welcome [user] to TGC",
+                    "Look and behold, here comes [user]."]
+        },
+        "Register":{
+            "Channel": "ID/DM",
+            "Msg": "Please go to this site [url] in order to complete your registration. Your identity code is [code]"
+        },
+        "Registered":{
+            "Channel": "ID/DM",
+            "Msg": ["Welcome to the community [user], you're now a MEMBER!!!! YAY, be sure to check out the members portal at [url]",
+                   "[user], omg, you finally did it. You're a member!, here you can access the members portal, [url]"]
+        },
+        "AntiSpam": {
+            "Channel": "ID/DM empty for all channels",
+            "Cooldown": 4000,
+            "Warnings": 3
+        }
+    },
+
+    "Disabled Commands":[],
+
+    "Extensions": ["Accounts",
+                   "Membership",
+                   "SpamAgent"],
+    "Database": {
+        "AccountsDB": "ConnectionString"
+    }
+}

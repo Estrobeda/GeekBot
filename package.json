@@ -1,0 +1,39 @@
+{
+  "name": "geekbot",
+  "version": "0.0.1",
+  "description": "The GeekBot is an advanced discord bot, made with discord.js. The core feature of this bot that sets it appart from other bots is that the bot manages membership and registrations.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estrobeda/GeekBot.git"
+  },
+  "keywords": [
+    "The",
+    "Geek",
+    "Corner",
+    "TGC",
+    "GeekBot",
+    "geekbot",
+    "Geekbot",
+    "discord",
+    "discordjs",
+    "Estrobeda"
+  ],
+  "author": "Estrobeda < Estrobeda@protonmail.com >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Estrobeda/GeekBot/issues"
+  },
+  "homepage": "https://github.com/Estrobeda/GeekBot#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.2",
+    "discord.js": "^11.2.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.7",
+    "uws": "^8.14.1"
+  }
+}
