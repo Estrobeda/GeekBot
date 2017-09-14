@@ -1,15 +1,15 @@
-#GeekBot
+# GeekBot
 
-##Description
+## Description
 The GeekBot is an advanced discord bot, made with discord.js.
 The core feature of this bot that sets it appart from other bots is that
 the bot manages membership and registrations.
 
-##Behaviour
+## Behaviour
 
-##Implemented
+## Implemented
 
-###Not yet implemented
+### Not yet implemented
   - Greeting (on join)      - Gives a random greeting message for new users
   - Greeting (on register)  - Gives a random welcome message for new members
   
@@ -23,14 +23,14 @@ the bot manages membership and registrations.
                                users if they are cought spamming. 
                                After 3 warnings, the staff will be notified.  
  
-###Disabled/Removed
+### Disabled/Removed
 
-##Features
+## Features
 
-###Implemented:
+### Implemented:
 
 
-###Not yet implemented:
+### Not yet implemented:
    - Register                                                     - Gives you a unique ID and a registering URL for registering your account 
                                                                     (Registering within discord would be a terrible security hazard)
 
@@ -44,10 +44,10 @@ the bot manages membership and registrations.
    - Add Role [USER] [ROLE,/s]                                    - Give a user a specific role or roles.
     
 
-###Disables/Removed:
+### Disables/Removed:
 
 
-##Credits
+## Credits
 - @Estrobeda
 
 
