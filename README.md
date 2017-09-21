@@ -1,7 +1,7 @@
 # GeekBot
 
 ## Description
-The GeekBot is an advanced discord bot, made with discord.js.
+The GeekBot is an advanced discord bot, made with discord-rs.
 The core feature of this bot that sets it appart from other bots is that
 the bot manages membership and registrations.
 
@@ -52,3 +52,8 @@ the bot manages membership and registrations.
 
 
 /The Geek Corner Community
+
+
+## Major changes
+2017/09/21 - Estrobeda changed the language of choice from nodejs to rust due to optimization, curriousity and safety.
+             The geek portal is still planned to be based on NodeJS but is subject to change.
