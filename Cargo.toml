@@ -1,0 +1,8 @@
+[package]
+name = "GeekBot"
+version = "0.0.1"
+authors = ["Estrobeda <estrobeda@protonmail.com>"]
+
+[dependencies]
+discord = "0.8.0"
+toml = "0.4"
